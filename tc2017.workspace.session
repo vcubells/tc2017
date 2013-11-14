@@ -1,30 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Session Name="/media/psf/Home/svn/vcn/itesm/tc2017/trunk/tc2017.workspace">
-  <int Value="3" Name="m_selectedTab"/>
-  <wxString Value="/media/psf/Home/svn/vcn/itesm/tc2017/trunk/tc2017.workspace" Name="m_workspaceName"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="/media/psf/Home/src/itesm/tc2017_codelite/tc2017.workspace">
+  <int Value="1" Name="m_selectedTab"/>
+  <wxString Value="/media/psf/Home/src/itesm/tc2017_codelite/tc2017.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/media/psf/Home/svn/vcn/itesm/tc2017/trunk/t5c2e1/main.c" Name="FileName"/>
-      <int Value="60" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <wxString Value="/media/psf/Home/src/itesm/tc2017_codelite/t5c1e2/main.c" Name="FileName"/>
+      <int Value="72" Name="FirstVisibleLine"/>
+      <int Value="1" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="/media/psf/Home/svn/vcn/itesm/tc2017/trunk/t5c2e2/main.c" Name="FileName"/>
-      <int Value="79" Name="FirstVisibleLine"/>
-      <int Value="85" Name="CurrentLine"/>
+      <wxString Value="/media/psf/Home/src/itesm/tc2017_codelite/t5c3e1/main.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="13" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="/media/psf/Home/svn/vcn/itesm/tc2017/trunk/t5c2e3/main.c" Name="FileName"/>
-      <int Value="36" Name="FirstVisibleLine"/>
-      <int Value="42" Name="CurrentLine"/>
+      <wxString Value="/media/psf/Home/src/itesm/tc2017_codelite/t5c2e2/main.c" Name="FileName"/>
+      <int Value="84" Name="FirstVisibleLine"/>
+      <int Value="5" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="/media/psf/Home/svn/vcn/itesm/tc2017/trunk/t5c2e4/main.c" Name="FileName"/>
-      <int Value="54" Name="FirstVisibleLine"/>
-      <int Value="57" Name="CurrentLine"/>
+      <wxString Value="/media/psf/Home/src/itesm/tc2017_codelite/t5c2e1/main.c" Name="FileName"/>
+      <int Value="33" Name="FirstVisibleLine"/>
+      <int Value="36" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/usr/local/include/shapes.h" Name="FileName"/>
+      <int Value="72" Name="FirstVisibleLine"/>
+      <int Value="76" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
     </TabInfo>
   </TabInfoArray>

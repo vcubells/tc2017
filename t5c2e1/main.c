@@ -1,6 +1,7 @@
 /* Algoritmo MidPointCircle */
 #include <graphics.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int circlePoints(int x, int y, int puntos[], int i);
 int midPointCircle(int radius, int puntos[]);
@@ -74,6 +75,7 @@ int midPointCircle(int radius, int puntos[])
 		x++;
 		
 		i = circlePoints(x, y, puntos, i);
+		sleep(1);
 	}
 	
 	return i;

@@ -114,11 +114,11 @@ void generaArchivo(int puntos[], int count)
 
 	for(i = 0; i < count; i += 2)
 	{
-		fprintf(fp,"(%d, %d) ", puntos[i], puntos[i+1]);
+		fprintf(fp,"(%d, %d) \n", puntos[i], puntos[i+1]);
 
-		np++;
+		//np++;
 
-		if(np==5) { fprintf(fp,"\n"); np=0; }
+		//if(np==5) { fprintf(fp,"\n"); np=0; }
 	}
 
 	fclose(fp);

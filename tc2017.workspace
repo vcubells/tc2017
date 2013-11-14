@@ -7,6 +7,8 @@
   <Project Name="t5c2e2" Path="t5c2e2/t5c2e2.project"/>
   <Project Name="t5c2e3" Path="t5c2e3/t5c2e3.project"/>
   <Project Name="t5c2e4" Path="t5c2e4/t5c2e4.project"/>
+  <Project Name="t5c2e5" Path="t5c2e5/t5c2e5.project"/>
+  <Project Name="t5c3e1" Path="t5c3e1/t5c3e1.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Project Name="t5c1e1" ConfigName="Debug"/>
@@ -16,6 +18,8 @@
       <Project Name="t5c2e2" ConfigName="Debug"/>
       <Project Name="t5c2e3" ConfigName="Debug"/>
       <Project Name="t5c2e4" ConfigName="Debug"/>
+      <Project Name="t5c2e5" ConfigName="Debug"/>
+      <Project Name="t5c3e1" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="t5c1e1" ConfigName="Release"/>
@@ -25,6 +29,8 @@
       <Project Name="t5c2e2" ConfigName="Release"/>
       <Project Name="t5c2e3" ConfigName="Release"/>
       <Project Name="t5c2e4" ConfigName="Release"/>
+      <Project Name="t5c2e5" ConfigName="Release"/>
+      <Project Name="t5c3e1" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

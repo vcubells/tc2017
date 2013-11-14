@@ -1,5 +1,6 @@
 #include <graphics.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int ellipsePoints(int x, int y, int puntos[], int i);
 int midPointEllipse(int a,int b, int puntos[]);
@@ -22,6 +23,9 @@ int main()
 	
 	generaArchivo(puntos, count);
 	
+	
+	ellipse(100,200,0,360,20, 100);
+	
 	getch();
 	closegraph();
 	
@@ -43,6 +47,8 @@ int ellipsePoints(int x, int y, int puntos[], int i)
 	putpixel(maxx-x,maxy+y,WHITE);
 	putpixel(maxx+x,maxy-y,WHITE);
 	putpixel(maxx-x,maxy-y,WHITE);
+	
+	//sleep(1);
 	
 	return i;
 }

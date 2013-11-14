@@ -2,6 +2,7 @@
 #include <graphics.h>
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 int basicCircle(int radius, int puntos[]);
 void generaArchivo(int puntos[], int count);
@@ -61,6 +62,8 @@ int basicCircle(int radius, int puntos[])
 		y = sqrt(radius*radius - x*x);
 		
 		i = circlePoints(x, y, puntos, i);
+		
+		usleep(500);
 	}
 	
 	return i;
