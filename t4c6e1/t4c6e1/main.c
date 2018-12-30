@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-#define N 15
+#define N 9
 
 void Floyd(int C[N][N], int A[N][N]);
 void imprime(int M[N][N]);
@@ -24,46 +24,36 @@ int main()
             if ( i == j) C[i][j]=0;
             else C[i][j]=1000;
     
-    C[0][2] = 4;
-    C[0][4] = 4;
+    C[0][1] = 6;
+    C[0][3] = 10;
     
-    C[1][3] = 8;
-    C[1][9] = 1;
+    C[1][0] = 6;
+    C[3][0] = 10;
     
-    C[2][1] = 9;
-    C[2][4] = 5;
-    C[2][11] = 5;
+    C[1][2] = 5;
+    C[1][4] = 10;
     
-    C[3][4] = 6;
-    C[3][5] = 6;
-    C[3][6] = 4;
-    C[3][13] = 8;
+    C[2][1] = 5;
+    C[4][1] = 10;
     
-    C[4][7] = 9;
-    C[4][3] = 8;
+    C[3][4] = 9;
+    C[3][6] = 5;
     
-    C[5][6] = 3;
+    C[4][3] = 9;
+    C[6][3] = 5;
     
-    C[6][8] = 8;
-    C[6][7] = 2;
+    C[4][8] = 2;
+    C[8][4] = 2;
     
-    C[7][14] = 7;
+    C[5][7] = 5;
+    C[5][8] = 1;
     
-    C[8][6] = 7;
-    C[8][9] = 16;
-    C[8][12] = 3;
+    C[7][5] = 5;
+    C[8][5] = 1;
     
-    C[9][8] = 7;
+    C[6][7] = 4;
+    C[7][6] = 4;
     
-    C[10][12] = 3;
-    
-    C[11][2] = 9;
-    
-    C[12][8] = 5;
-    C[12][10] = 10;
-    C[12][13] = 7;
-    
-    C[13][3] = 8;
     
     /* Imprime matriz de costos */
     printf("Matriz de costos C\n\n");
@@ -84,6 +74,8 @@ void Floyd(int C[N][N], int A[N][N])
             A[i][j]=C[i][j];    //copiar la matriz original en A
     
     for(int k = 0; k < N; ++k)
+    {
+        imprime(A);
         for(int i = 0; i < N; ++i)
             for(int j = 0; j < N; ++j)
             {
@@ -91,6 +83,7 @@ void Floyd(int C[N][N], int A[N][N])
                 if ( temp < A[i][j] )
                     A[i][j] = temp;
             }
+    }
 }
 
 void imprime(int M[N][N])
@@ -105,5 +98,7 @@ void imprime(int M[N][N])
         
         printf("\n");
     }
+    
+    printf("\n\n");
 }
 
